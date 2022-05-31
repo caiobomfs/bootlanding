@@ -12,6 +12,18 @@
 
 .navbar-collapse { justify-content: flex-end;}
 
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body
+{ 
+    font-size: 100%; 
+    background: linear-gradient(68.15deg, #dce0e3 16.62%, #8290A5 85.61%);
+}
 .overlay{
     position: absolute;
     margin-top: 3.5em;
