@@ -44,7 +44,7 @@
     <div class="overlay"></div>
     <div  class="mt-5"></div>
     <div  class="d-flex justify-content-center" class="row"  >
-      <div  class="col-lg-4 col-md-4 col-sm-12">
+      <div  class="col-lg-6 col-md-4 col-sm-12">
          <img  src="images/papel.jpg" class="img-fluid" >
          <span class="text-justify"></span>
         </div>
@@ -65,61 +65,57 @@
   </header>
   <script type="text/javascript" src='js/main.js'></script>
  
-  <section  class="bg #24211a about"  >
-    <div  class="container">
+  <section  class="about bg"  >
+    <div  class="container-fluid">
       <h1 class="d-flex justify-content-center">Trabalhe Conosco</h1>
-      <form action="">
+      <form action="" method="">
   <div class="row">
-    <div  class="col-lg-6 col-md-4 col-sm-12">
+    <div  class="col-lg-auto col-md-auto col-sm-auto">
       <img src="images/trabalhe.jpg" class="img-fluid">
     </div>
   
     <div class="col-lg-3 col-md-8 col-sm-12 ">
       <div class="form-group row">
-        <label for="nome" class="col-lg-4 co2-form-label">Nome completo</label>
+        <label for="nome" class="col-lg-4 col-form-label">Nome completo</label>
         <div class="col-lg-8 ">
         <input type="text" class="form-control form-control-lg" placeholder="Nome Completo" name="nome">
       </div>
       </div>
 
-
       <div class="form-group row">
-        <label for="data" class="col-lg-4 co2-form-label">Data de nascimento</label>
-        <div class="col-lg-8 ">
-        <input type="date" class="form-control form-control-lg" placeholder="00/00/0000" name="data">
+        <label for="email" class="col-lg-4 col-form-label">Seu email</label>
+        <div class="col-lg-8">
+        <input type="email" class="form-control form-control-lg" placeholder="exemplo@exemplo.com" name="email">
       </div>
       </div>
-
       
       <div class="form-group row">
-        <label for="cpf" class="col-lg-4 col2form-label">CPF</label>
-        <div class="col-lg-8 ">
+        <label for="cpf" class="col-lg-4 col-form-label">CPF</label>
+        <div class="col-lg-8">
         <input type="text" class="form-control form-control-lg" placeholder="00123456789" name="cpf">
       </div>
       </div>
    
       
       <div class="form-group row">
-        <label for="cidade" class="col-lg-4 2ol-form-label">Cidade</label>
+        <label for="cidade" class="col-lg-4 col-form-label">Cidade</label>
         <div class="col-lg-8 ">
         <input type="text" class="form-control form-control-lg" placeholder="Cidade" name="cidade">
       </div>
       </div>
       
-
-    
     </div>
- 
+    
     <div class="col-lg-3 col-md-8 col-sm-12 "> 
       <div class="form-group row">
-        <label for="email" class="col-lg-4 c2l-form-label">Seu email</label>
-        <div class="col-lg-8">
-        <input type="email" class="form-control form-control-lg" placeholder="exemplo@exemplo.com" name="email">
+        <label for="data" class="col-lg-4 col-form-label">Data de nascimento</label>
+        <div class="col-lg-8 ">
+        <input type="date" class="form-control form-control-lg" placeholder="00/00/0000" name="data">
       </div>
       </div>
             
       <div class="form-group row">
-        <label for="rg" class="col-lg-4 col-2orm-label">RG</label>
+        <label for="rg" class="col-lg-4 col-form-label">RG</label>
         <div class="col-lg-8">
         <input type="text" class="form-control form-control-lg" placeholder="123456789" name="rg">
       </div>
@@ -138,14 +134,19 @@
         <input type="tel" class="form-control form-control-lg" placeholder="Telefone" name="telefone">
       </div>
       </div>
-
-
+      <div class="d-flex justify-content-start ">
+        <button class="btn btn-outline-secondary btn-lg  " value="submit">enviar</button>
+        </div>
+     
     </div>
 
 
   </div>
+  
 </form>
+
 </div>
+
 </section>
 
 

@@ -77,19 +77,21 @@ body
     
     
 }    
-
-/* formulario e imagem do formulario */
-    .bg{background-color: #24211a;}
-    .description h1{
+.description h1{
     color:#F97300 ;
     
     }   
+
+/* formulario e imagem do formulario */
+    .bg{background-color: #24211a;}
+ 
 
     
     .about{
        
         padding: 2em 0 ;
         position: relative;
+        padding-bottom: 6em;
      
        }
 
@@ -100,10 +102,20 @@ body
 
        .about img{
         height: 100%;
-           width: 777px;
+           width: 720px;
            
        }
 
        .about label { 
         color:#dce0e3;
+       }
+       .about button{
+        border:1px  solid #F97300;
+        background:#F97300;
+        color:#fff;
+       margin-top: 3em;
+       width: 150px;
+       height: 75px;
+       margin-left: -5em;
+       
        }
