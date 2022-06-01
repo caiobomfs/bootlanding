@@ -87,7 +87,7 @@ body
  
 
     
-    .about{
+    .conosco{
        
         padding: 2em 0 ;
         position: relative;
@@ -95,21 +95,21 @@ body
      
        }
 
-       .about h1{
+       .conosco h1{
         color:#dce0e3 ;
         margin: 2em;
        }
 
-       .about img{
+       .conosco img{
         height: 100%;
            width: 720px;
            
        }
 
-       .about label { 
+       .conosco label { 
         color:#dce0e3;
        }
-       .about button{
+       .conosco button{
         border:1px  solid #F97300;
         background:#F97300;
         color:#fff;
@@ -118,4 +118,35 @@ body
        height: 75px;
        margin-left: -5em;
        
+       }
+
+       /* footer */
+       .foot {
+       
+        
+        position: relative;
+        padding-bottom: 2em;
+        background: #656870;
+        
+       }
+
+       .foot  h1{
+        color:#dce0e3 ;
+        margin-top: 1em;
+        font-size: 30px;
+        
+       }
+       .pequeno{
+           height: 50px;
+           width: 50px;
+           padding: 5px;
+       }
+       .certificado{
+       height: 125px;
+       width: 260px;
+       }
+
+       .foot a{ 
+        color:#dce0e3 ;
+        font-size: 18px;
        }
