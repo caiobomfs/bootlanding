@@ -55,10 +55,7 @@ body
     block-size: 535px;
 }
 
-.description h1{
- color:#F97300 ;
- 
-}
+
 .description h2{
     color:#F97300 ;
    }
@@ -81,37 +78,32 @@ body
     
 }    
 
+/* formulario e imagem do formulario */
+    .bg{background-color: #24211a;}
+    .description h1{
+    color:#F97300 ;
     
+    }   
+
     
     .about{
-        margin: 4em 0;
-        padding: 1em;
+       
+        padding: 2em 0 ;
         position: relative;
      
        }
+
        .about h1{
-        color:#F97300;
+        color:#dce0e3 ;
         margin: 2em;
        }
+
        .about img{
         height: 100%;
-           width: 100%;
-           border-radius: 50%
+           width: 777px;
+           
        }
-       .about span{
-        display: block;
-        color: #888;
-        position: absolute;
-        left: 115px;
-       }
-       .about .desc{
-        padding: 2em;
-        border-left:4px solid #10828C;
-       }
-       .about .desc h3{
-        color: #10828C;
-       }
-       .about .desc p{
-        line-height:2;
-        color:#888;
+
+       .about label { 
+        color:#dce0e3;
        }
