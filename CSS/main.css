@@ -82,7 +82,19 @@ body
     
     }   
 /* slider dos clientes */
+.carousel-inner img{
+    width: 280px;
+    height: 100px;
+    margin: 10px;
+}
 
+.container-fluid h1{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    color: #656870;
+    font-weight: 700;
+}
 
 /* formulario e imagem do formulario */
     .bg{background-color: #24211a;}
