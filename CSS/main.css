@@ -121,13 +121,14 @@ margin-bottom: 3em; }
     
 }
 
-.exemplos h1, .exemplo p{
+.exemplos h1, .exemplos p{
     margin-left: 20px;
-    margin-right: 20px;}
+    margin-right: 20px;
+    }
 
-    
+    .b{margin-left: 3em;}
 
-.exemplos img {border: solid #656870; height: 268px; width:  238px;}
+.exemplos img {height: 268px; width:  238px;}
 
 /* formulario e imagem do formulario */
     .bg{background-color: #24211a;
